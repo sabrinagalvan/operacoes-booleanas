@@ -1,25 +1,24 @@
-let numeroUm = 1;
-let stringUm = '1';
+let numeroSete = 7;
+let stringSete = '7';
+let numeroTreze = 13;
+let stringTreze = '13';
 let numeroTrinta = 30;
 let stringTrinta = '30';
-let numeroDez = 10;
-let stringDez = '10';
 
-if (numeroUm === Number(stringUm)) {
-  console.log('As variáveis numeroUm e stringUm têm o mesmo valor, mas tipos diferentes.');
+if (numeroSete === Number(stringSete)) {
+  console.log('O valor numeroSete e stringSete são idênticos, mas são tipos diferentes.');
 } else {
-  console.log('As variáveis numeroUm e stringUm não têm o mesmo valor.');
+  console.log('O valor de numeroSete e stringSete não são idênticos, e são tipos diferentes');
 }
 
 if (numeroTrinta === Number(stringTrinta)) {
-  console.log('As variáveis numeroTrinta e stringTrinta têm o mesmo valor e mesmo tipo.');
+  console.log('O valor numeroTreze e stringTreze são idênticos, mas são tipos diferentes.');
 } else {
-  console.log('As variáveis numeroTrinta e stringTrinta não têm o mesmo tipo.');
+  console.log('O valor de numeroTreze e stringTreze não são idênticos, e são tipos diferentes');
 }
 
 if (numeroDez === Number(stringDez)) {
-  console.log('As variáveis numeroDez e stringDez têm o mesmo valor, mas tipos diferentes.');
+  console.log('O valor numeroTrinta e stringTrinta são idênticos, mas são tipos diferentes.');
 } else {
-  console.log('As variáveis numeroDez e stringDez não têm o mesmo valor.');
+  console.log('O valor de numeroTrinta e stringTrinta não são idênticos, e são tipos diferentes');
 }
-
